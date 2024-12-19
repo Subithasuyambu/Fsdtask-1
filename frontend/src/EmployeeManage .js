@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { TextField, Button, MenuItem, Select, InputLabel, FormControl, Snackbar, Table, TableBody, TableCell, TableHead, TableRow, Paper } from '@mui/material';
 
-const API_URL = 'http://localhost:5000/api/employees';
+const API_URL = 'https://fsdtask-1-stbp.onrender.com/api/employees';
 
 const EmployeeAdd = () => {
   const [formData, setFormData] = useState({
